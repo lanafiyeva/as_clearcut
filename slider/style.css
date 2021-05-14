@@ -39,7 +39,7 @@
 
 .arrowbutton {
   position: absolute;
-  bottom: 3px;
+  bottom: 2px;
   left: 17px;
 }
 
@@ -68,9 +68,7 @@
 }
 
 .slider-dots-item {
-  width: 18px;
-  height: 15px;
-  margin: 0px;
+  margin: 1px;
 }
 
 .on {
@@ -83,7 +81,7 @@
 
 .dot-white {
   position: absolute;
-  bottom: -2px;
+  bottom: -1px;
   left: 3px;
 }
 
