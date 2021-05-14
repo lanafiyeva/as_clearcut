@@ -54,6 +54,10 @@ body {
   cursor: pointer;
 }
 
+.logo:hover {
+  opacity: 0.5;
+}
+
 .logo_c {
   font-family: Georgia;
   font-size: 32px;
@@ -190,6 +194,12 @@ nav ul {
   text-decoration: none;
 }
 
+.about-us-url:hover,
+.our-say-url:hover,
+.our-service-url:hover {
+  color: #313131;
+}
+
 .about-us-url-wrapper,
 .our-say-url-wrapper,
 .our-service-url-wrapper {
@@ -279,6 +289,10 @@ nav ul {
   margin: 0px;
 }
 
+.email {
+  color: #a7c353;
+}
+
 .linkedin-icon-wrapper {
   position: relative;
   width: 20%;
@@ -289,6 +303,13 @@ nav ul {
   cursor: pointer;
 }
 
+.social-links:hover {
+  color: white;
+}
+
+.blog-url:hover {
+  color: white;
+}
 .circle {
   position: absolute;
 }
@@ -364,6 +385,8 @@ textarea {
 
 .btn-submit:hover {
   cursor: pointer;
+  color: white;
+  opacity: 0.5;
 }
 
 .line {
