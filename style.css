@@ -117,6 +117,10 @@ nav ul {
   display: flex;
   height: 100%;
 }
+
+nav ul li:hover {
+  color: #a7c353;
+}
 /* NAVBAR END */
 
 .lorem {
@@ -140,14 +144,14 @@ nav ul {
   max-width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   margin-bottom: 40px;
 }
 
 .about-us,
 .our-services,
 .clients-say {
-  width: 32%;
+  width: 26%;
 }
 
 .about-header {
@@ -200,10 +204,16 @@ nav ul {
   color: #313131;
 }
 
+.about-us-url:active,
+.our-say-url:active,
+.our-service-url:active {
+  color: red;
+}
+
 .about-us-url-wrapper,
 .our-say-url-wrapper,
 .our-service-url-wrapper {
-  width: 90%;
+  width: 94%;
   text-align: end;
 }
 
@@ -307,9 +317,18 @@ nav ul {
   color: white;
 }
 
+.social-links:active {
+  color: red;
+}
+
 .blog-url:hover {
   color: white;
 }
+
+.blog-url:active {
+  color: red;
+}
+
 .circle {
   position: absolute;
 }
@@ -389,6 +408,12 @@ textarea {
   opacity: 0.5;
 }
 
+.btn-submit:active {
+  cursor: pointer;
+  background-color: red;
+  opacity: 0.8;
+}
+
 .line {
   width: 225px;
   height: 1px;
@@ -465,8 +490,9 @@ textarea {
   .about-wrapper {
     max-width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 40px;
   }
 
   .about-us,
