@@ -163,14 +163,19 @@ nav ul li:hover {
 }
 
 .about-us-img {
-  width: 278px;
-  height: 148px;
+  position: relative;
+  width: 280px;
+  height: 150px;
+  border: 1px solid #e2e2e2;
 
   border-style: 2px solid #e2e2e2;
 }
 .about-us-img > img {
   width: 270px;
   height: 140px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
 }
 
 .about-text {
