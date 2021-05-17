@@ -30,6 +30,7 @@
 .arrow:hover {
   opacity: 0.6;
   transition: 0.3s;
+  cursor: pointer;
 }
 .arrowbutton-green {
   position: relative;
